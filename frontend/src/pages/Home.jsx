@@ -1,6 +1,7 @@
 import Banner from "../components/Banner/Banner";
 import NoticeBar from "../components/Notice/NoticeBar";
 import StreamingSection from "../components/StreamingSection/StreamingSection";
+import ServiceSection from "../components/ServiceSection/ServiceSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         {/* ✅ ปรับเฉพาะ StreamingSection */}
         <div className="mt-6 rounded-xl space-y-6">
           <StreamingSection />
+          <ServiceSection />
         </div>
       </div>
     </div>
